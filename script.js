@@ -1,13 +1,16 @@
-// scripts.js
+// Responsive navigation menu behavior
+document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
 
-// Toggle the mobile menu visibility on hamburger icon click
-const hamburgerIcon = document.getElementById("hamburger-icon");
-const navLinks = document.querySelector(".nav-links");
-
-hamburgerIcon.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-    hamburgerIcon.classList.toggle("active");
+    navLinks.addEventListener("click", () => {
+        // Close the menu when a link is clicked (for mobile view)
+        if (toggle.checked) {
+            toggle.checked = false;
+        }
+    });
 });
+
  // Initialize EmailJS with your user ID (Get it from EmailJS dashboard)
     emailjs.init("your_emailjs_user_id");
 
