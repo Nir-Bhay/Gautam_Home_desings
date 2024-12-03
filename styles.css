@@ -116,7 +116,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('herosec.jpg') no-repeat center center/cover; /* Replace 'your-image.jpg' with your actual image */
+    background: url('Image/herosec.jpg') no-repeat center center/cover; /* Replace 'your-image.jpg' with your actual image */
     display: flex;
     justify-content: center;
     align-items: center;
