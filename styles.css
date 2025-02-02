@@ -39,16 +39,26 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 5px;
 }
 
-.logo a {
-    font-size: 28px;
-    font-weight: bold;
-    color: #000000;
-    text-decoration: none;
-    margin-right: 10vw;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+.nav-logo {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
 .nav-links {
     display: flex;
     list-style: none;
